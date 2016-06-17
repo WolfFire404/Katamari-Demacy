@@ -2,5 +2,5 @@
 
 function start_button ()
 {
-    Application.LoadLevel("Katamari-Demacy");
+    Application.LoadLevel("start-menu");
 }

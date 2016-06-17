@@ -11,7 +11,6 @@ public class Score : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
         SetScore(1);
     }
 

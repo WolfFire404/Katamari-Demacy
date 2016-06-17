@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
                 transform.localScale = size;
                // f.score = (double)transform.localScale.x;
                 f.AddScore(transform.localScale.x);
-                if (transform.localScale.x > 20)
+                if (transform.localScale.x > 4)
                 {
                     // Application.LoadLevel("win");
                     SceneManager.LoadScene("win");
